@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\OpenGL Rendering">
+      <UniqueIdentifier>{1e8a4f53-5fc3-4e98-8acc-f734a5631d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Perspective Transformation">
+      <UniqueIdentifier>{dda2936f-4772-4357-b3de-49ef27523a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Perspective Transformation\Vectors">
+      <UniqueIdentifier>{88ef7dbe-6fa3-4224-861f-43c9f6d5c58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Saving/Loading">
+      <UniqueIdentifier>{08ac918e-9e30-4696-b413-3840828ad2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{857480f4-9383-4958-a8d8-c93fdc4f306b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandHandling">
+      <UniqueIdentifier>{6376f9c6-431f-4058-9c67-9cf09f03d056}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLFWTesting.cpp">
+      <Filter>Source Files\OpenGL Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorCallback.cpp">
+      <Filter>Source Files\OpenGL Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Perspective Transformation\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\Perspective Transformation\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Perspective Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="visualTransform.cpp">
+      <Filter>Source Files\Perspective Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="frustumClipping.cpp">
+      <Filter>Source Files\Perspective Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="CRender.cpp">
+      <Filter>Source Files\OpenGL Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="CShape.cpp">
+      <Filter>Source Files\Perspective Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectReadercpp.cpp">
+      <Filter>Source Files\File Saving/Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectWriter.cpp">
+      <Filter>Source Files\File Saving/Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHandler.cpp">
+      <Filter>Source Files\CommandHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="glfw-3.3.2\lib\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="visualTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frustumClipping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GLFWTesting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
